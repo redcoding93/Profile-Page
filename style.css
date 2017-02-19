@@ -1,0 +1,111 @@
+img {
+  height: 200px;
+  width: 200px;
+  padding: 0px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  
+}
+
+
+header {
+  text-align: center;
+  background: url("http://images.fineartamerica.com/images-medium-large/seattle-daytime-william-bray.jpg");
+  background-size: cover;
+  color: white;
+  padding: 1px;
+}
+ul {
+  padding: 15px;
+  background: #5F9F9F;
+  background: linear-gradient(bottom, rgba(0,0,0,.5), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.5));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.5));
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 0px 15px 0px;
+}
+
+.button2 {
+  background-color:#00a3cc;
+  border: 1px solid #005266;
+  border-radius: 5px;
+  padding: 7px;
+  margin-right: 10px;
+}
+.button3 {
+  padding: 7px;
+  border: 1px solid #335266;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #003d99;
+}
+.button4{
+  background-color: #4d4dff;
+  padding: 7px;
+  border: 1px solid #3333cc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.button5 {
+  background-color: #ff3300;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+a.button {
+  background-color: #3366ff;
+  border: 1px solid #000066;
+  border-radius: 5px;
+  color: #fff;
+  margin-right: 10px;
+  padding: 7px;
+}
+
+h1 {
+  font-size: 40px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  
+}
+
+body {
+  background-color: #808080;
+  
+}
+
+ @media (max-width: 500px) {
+        body {
+          background: #737373;
+          
+          a {
+            display: block;
+            padding: 10px;
+          }
+
+          h1 {
+            font-size: 36;
+          }
+          li {
+            display: block;
+            padding: 5px;
+          }
+   }
+}
+
+
+
+  
